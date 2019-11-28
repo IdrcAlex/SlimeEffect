@@ -12,7 +12,7 @@ class Main extends PluginBase
     public function onEnable()
     {
         $this->saveDefaultConfig();
-        $this->getServer()->getLogger()->info("Plugin Enabled!");
+        $this->getServer()->getLogger()->info("Plugin Enabled! Made by LilAlex7v7 / IdrcAlex");
         $this->initCommands();
         $this->initEvents();
     }
